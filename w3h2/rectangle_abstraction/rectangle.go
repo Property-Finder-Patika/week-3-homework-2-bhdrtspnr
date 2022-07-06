@@ -6,30 +6,31 @@ import (
 
 // var rectangleSlice []rectangle
 
-type rectangle struct {
+type rectangle struct { //define rectangle struct
 	height float64
 	width  float64
 }
 
-func newRectangleWithArgumentsReturns(height float64, width float64) (*rectangle, error) {
-	rekt := rectangle{}
-	if width <= 0 {
+func newRectangleWithArgumentsReturns(height float64, width float64) (*rectangle, error) { //main new rectangle function, takes height and width, returns rectangle and an error
+	rekt := rectangle{} //init empty rectangle
+	if width <= 0 {     //if width is less than zero throw error and return nil, error
 		err := errors.New(WidthNotGreaterThanZero(width))
 		return nil, err
 	}
-	if height <= 0 {
+	if height <= 0 { //if height is less than zero throw error and return nil, error
 		err := errors.New(HeightNotGreaterThanZero(height))
 		return nil, err
 	}
+	//if there are no errors create a struct with given parameters and return it.
 	rekt.width = width
 	rekt.height = height
 	return &rekt, nil
 }
 
-func (r rectangle) calculateArea() float64 {
+func (r rectangle) calculateArea() float64 { //calculate area of a rectangle
 	return r.width * r.height
 }
-func (r rectangle) calculateCircumference() float64 {
+func (r rectangle) calculateCircumference() float64 { //calculate circumference of a rectangle
 	return 2 * (r.width + r.height)
 }
 
