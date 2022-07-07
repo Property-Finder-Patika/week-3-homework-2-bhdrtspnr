@@ -14,11 +14,11 @@ type rectangle struct { //define rectangle struct
 func newRectangleWithArgumentsReturns(height float64, width float64) (*rectangle, error) { //main new rectangle function, takes height and width, returns rectangle and an error
 	rekt := rectangle{} //init empty rectangle
 	if width <= 0 {     //if width is less than zero throw error and return nil, error
-		err := errors.New(WidthNotGreaterThanZero(width))
+		err := errors.New(invalidWidth(width))
 		return nil, err
 	}
 	if height <= 0 { //if height is less than zero throw error and return nil, error
-		err := errors.New(HeightNotGreaterThanZero(height))
+		err := errors.New(invalidHeight(height))
 		return nil, err
 	}
 	//if there are no errors create a struct with given parameters and return it.

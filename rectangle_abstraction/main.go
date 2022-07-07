@@ -3,10 +3,13 @@ package main
 import "fmt"
 
 func main() {
+
 	menu()
+
 }
 
 func menu() {
+
 	var height, width float64 //define height and width
 	fmt.Println("Please enter the height of the rectangle: ")
 	fmt.Scanln(&height) //get height
