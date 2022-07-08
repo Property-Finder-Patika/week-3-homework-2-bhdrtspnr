@@ -1,0 +1,353 @@
+INFO: 2022/07/08 10:20:19 main.go:27: Program Started
+INFO: 2022/07/08 10:20:19 main.go:29: Debug mode is ON!
+INFO: 2022/07/08 10:20:19 main.go:33: DIGIT NUM IS: 4
+INFO: 2022/07/08 10:20:19 random_number.go:23: Creating the 0th digit of number... 4 digits left to 4 number of digits 
+INFO: 2022/07/08 10:20:19 random_number.go:25: Generating random number between 1..9 .... random number is: 2 
+INFO: 2022/07/08 10:20:19 random_number.go:34: Number generated: 2 is does not exists in the map adding number... 
+INFO: 2022/07/08 10:20:19 random_number.go:23: Creating the 1th digit of number... 3 digits left to 4 number of digits 
+INFO: 2022/07/08 10:20:19 random_number.go:25: Generating random number between 1..9 .... random number is: 8 
+INFO: 2022/07/08 10:20:19 random_number.go:34: Number generated: 8 is does not exists in the map adding number... 
+INFO: 2022/07/08 10:20:19 random_number.go:23: Creating the 2th digit of number... 2 digits left to 4 number of digits 
+INFO: 2022/07/08 10:20:19 random_number.go:25: Generating random number between 1..9 .... random number is: 8 
+INFO: 2022/07/08 10:20:19 random_number.go:29: Number generated: 8 is already exits in the map skipping number... 
+INFO: 2022/07/08 10:20:19 random_number.go:23: Creating the 2th digit of number... 2 digits left to 4 number of digits 
+INFO: 2022/07/08 10:20:19 random_number.go:25: Generating random number between 1..9 .... random number is: 4 
+INFO: 2022/07/08 10:20:19 random_number.go:34: Number generated: 4 is does not exists in the map adding number... 
+INFO: 2022/07/08 10:20:19 random_number.go:23: Creating the 3th digit of number... 1 digits left to 4 number of digits 
+INFO: 2022/07/08 10:20:19 random_number.go:25: Generating random number between 1..9 .... random number is: 2 
+INFO: 2022/07/08 10:20:19 random_number.go:29: Number generated: 2 is already exits in the map skipping number... 
+INFO: 2022/07/08 10:20:19 random_number.go:23: Creating the 3th digit of number... 1 digits left to 4 number of digits 
+INFO: 2022/07/08 10:20:19 random_number.go:25: Generating random number between 1..9 .... random number is: 7 
+INFO: 2022/07/08 10:20:19 random_number.go:34: Number generated: 7 is does not exists in the map adding number... 
+INFO: 2022/07/08 10:20:19 random_number.go:44: Random number map generated: {"2":true,"4":true,"7":true,"8":true}
+INFO: 2022/07/08 10:20:19 main.go:99: Secret number generated:  2847 
+INFO: 2022/07/08 10:20:19 main.go:101: Secret number parsed:  [2 8 4 7] 
+INFO: 2022/07/08 10:20:19 main.go:37: ----------------NEW RUN INITIATED----------------
+INFO: 2022/07/08 10:20:19 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:20:19 main.go:48: First run initiated
+INFO: 2022/07/08 10:20:44 main.go:52: User guessed 2857
+INFO: 2022/07/08 10:20:44 main.go:58: User input is valid.
+INFO: 2022/07/08 10:20:44 main.go:60: Increasing guess count by one, current value: 1
+INFO: 2022/07/08 10:20:44 main.go:63: Appending guess to previous guesses slice... current slice:  [2857]
+INFO: 2022/07/08 10:20:44 main.go:78: Parsing the user guess: [2 8 5 7] 
+INFO: 2022/07/08 10:20:44 main.go:84: User input: ([2 8 5 7]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:20:44 main.go:84: User input: ([2 8 5 7]) and secret key: ([2 8 4 7]) first digits (8) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:20:44 main.go:84: User input: ([2 8 5 7]) and secret key: ([2 8 4 7]) first digits (7) are equal, increasing the positive count by one... current positive 2
+INFO: 2022/07/08 10:20:44 main.go:93: Returning postive and negative values [3 0] 
+INFO: 2022/07/08 10:20:44 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:20:44 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:21:13 main.go:52: User guessed 2874
+INFO: 2022/07/08 10:21:13 main.go:58: User input is valid.
+INFO: 2022/07/08 10:21:13 main.go:60: Increasing guess count by one, current value: 2
+INFO: 2022/07/08 10:21:13 main.go:63: Appending guess to previous guesses slice... current slice:  [2857 2874]
+INFO: 2022/07/08 10:21:13 main.go:78: Parsing the user guess: [2 8 7 4] 
+INFO: 2022/07/08 10:21:13 main.go:84: User input: ([2 8 7 4]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:21:13 main.go:84: User input: ([2 8 7 4]) and secret key: ([2 8 4 7]) first digits (8) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:21:13 main.go:87: Secret key contains 2th item: 7  in a different position ([2 8 4 7]), increasing the negative count by one... current negative 0
+INFO: 2022/07/08 10:21:13 main.go:87: Secret key contains 3th item: 4  in a different position ([2 8 4 7]), increasing the negative count by one... current negative -1
+INFO: 2022/07/08 10:21:13 main.go:93: Returning postive and negative values [2 -2] 
+INFO: 2022/07/08 10:21:13 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:21:13 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:21:59 main.go:27: Program Started
+INFO: 2022/07/08 10:21:59 main.go:29: Debug mode is ON!
+INFO: 2022/07/08 10:21:59 main.go:33: DIGIT NUM IS: 4
+INFO: 2022/07/08 10:21:59 random_number.go:23: Creating the 0th digit of number... 4 digits left to 4 number of digits 
+INFO: 2022/07/08 10:21:59 random_number.go:25: Generating random number between 1..9 .... random number is: 2 
+INFO: 2022/07/08 10:21:59 random_number.go:34: Number generated: 2 is does not exists in the map adding number... 
+INFO: 2022/07/08 10:21:59 random_number.go:23: Creating the 1th digit of number... 3 digits left to 4 number of digits 
+INFO: 2022/07/08 10:21:59 random_number.go:25: Generating random number between 1..9 .... random number is: 8 
+INFO: 2022/07/08 10:21:59 random_number.go:34: Number generated: 8 is does not exists in the map adding number... 
+INFO: 2022/07/08 10:21:59 random_number.go:23: Creating the 2th digit of number... 2 digits left to 4 number of digits 
+INFO: 2022/07/08 10:21:59 random_number.go:25: Generating random number between 1..9 .... random number is: 8 
+INFO: 2022/07/08 10:21:59 random_number.go:29: Number generated: 8 is already exits in the map skipping number... 
+INFO: 2022/07/08 10:21:59 random_number.go:23: Creating the 2th digit of number... 2 digits left to 4 number of digits 
+INFO: 2022/07/08 10:21:59 random_number.go:25: Generating random number between 1..9 .... random number is: 4 
+INFO: 2022/07/08 10:21:59 random_number.go:34: Number generated: 4 is does not exists in the map adding number... 
+INFO: 2022/07/08 10:21:59 random_number.go:23: Creating the 3th digit of number... 1 digits left to 4 number of digits 
+INFO: 2022/07/08 10:21:59 random_number.go:25: Generating random number between 1..9 .... random number is: 2 
+INFO: 2022/07/08 10:21:59 random_number.go:29: Number generated: 2 is already exits in the map skipping number... 
+INFO: 2022/07/08 10:21:59 random_number.go:23: Creating the 3th digit of number... 1 digits left to 4 number of digits 
+INFO: 2022/07/08 10:21:59 random_number.go:25: Generating random number between 1..9 .... random number is: 7 
+INFO: 2022/07/08 10:21:59 random_number.go:34: Number generated: 7 is does not exists in the map adding number... 
+INFO: 2022/07/08 10:21:59 random_number.go:44: Random number map generated: {"2":true,"4":true,"7":true,"8":true}
+INFO: 2022/07/08 10:21:59 main.go:99: Secret number generated:  2847 
+INFO: 2022/07/08 10:21:59 main.go:101: Secret number parsed:  [2 8 4 7] 
+INFO: 2022/07/08 10:21:59 main.go:37: ----------------NEW RUN INITIATED----------------
+INFO: 2022/07/08 10:21:59 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:21:59 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:01 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:01 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:01 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:01 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:44 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:44 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:44 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:44 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:44 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:44 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:44 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:44 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:44 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:44 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:44 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:44 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:44 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:44 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:44 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:44 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:44 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:44 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:44 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:44 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:44 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:44 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:44 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:44 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:44 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:44 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:44 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:44 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:46 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:46 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:46 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:46 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:46 main.go:52: User guessed 0
+WARNING: 2022/07/08 10:22:46 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:22:46 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:22:46 main.go:48: First run initiated
+INFO: 2022/07/08 10:22:57 main.go:52: User guessed 2525
+INFO: 2022/07/08 10:22:57 main.go:58: User input is valid.
+INFO: 2022/07/08 10:22:57 main.go:60: Increasing guess count by one, current value: 1
+INFO: 2022/07/08 10:22:57 main.go:63: Appending guess to previous guesses slice... current slice:  [2525]
+INFO: 2022/07/08 10:22:57 main.go:78: Parsing the user guess: [2 5 2 5] 
+INFO: 2022/07/08 10:22:57 main.go:84: User input: ([2 5 2 5]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:22:57 main.go:87: Secret key contains 2th item: 2  in a different position ([2 8 4 7]), increasing the negative count by one... current negative 0
+INFO: 2022/07/08 10:22:57 main.go:93: Returning postive and negative values [1 -1] 
+INFO: 2022/07/08 10:22:57 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:22:57 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:02 main.go:52: User guessed 23456
+WARNING: 2022/07/08 10:23:02 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:23:02 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:06 main.go:52: User guessed 2345
+INFO: 2022/07/08 10:23:06 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:06 main.go:60: Increasing guess count by one, current value: 2
+INFO: 2022/07/08 10:23:06 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345]
+INFO: 2022/07/08 10:23:06 main.go:78: Parsing the user guess: [2 3 4 5] 
+INFO: 2022/07/08 10:23:06 main.go:84: User input: ([2 3 4 5]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:06 main.go:84: User input: ([2 3 4 5]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:23:06 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:23:06 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:06 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:10 main.go:52: User guessed 2367
+INFO: 2022/07/08 10:23:10 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:10 main.go:60: Increasing guess count by one, current value: 3
+INFO: 2022/07/08 10:23:10 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367]
+INFO: 2022/07/08 10:23:10 main.go:78: Parsing the user guess: [2 3 6 7] 
+INFO: 2022/07/08 10:23:10 main.go:84: User input: ([2 3 6 7]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:10 main.go:84: User input: ([2 3 6 7]) and secret key: ([2 8 4 7]) first digits (7) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:23:10 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:23:10 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:10 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:15 main.go:52: User guessed 2389
+INFO: 2022/07/08 10:23:15 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:15 main.go:60: Increasing guess count by one, current value: 4
+INFO: 2022/07/08 10:23:15 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389]
+INFO: 2022/07/08 10:23:15 main.go:78: Parsing the user guess: [2 3 8 9] 
+INFO: 2022/07/08 10:23:15 main.go:84: User input: ([2 3 8 9]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:15 main.go:87: Secret key contains 2th item: 8  in a different position ([2 8 4 7]), increasing the negative count by one... current negative 0
+INFO: 2022/07/08 10:23:15 main.go:93: Returning postive and negative values [1 -1] 
+INFO: 2022/07/08 10:23:15 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:15 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:21 main.go:52: User guessed 2367
+INFO: 2022/07/08 10:23:21 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:21 main.go:60: Increasing guess count by one, current value: 5
+INFO: 2022/07/08 10:23:21 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367]
+INFO: 2022/07/08 10:23:21 main.go:78: Parsing the user guess: [2 3 6 7] 
+INFO: 2022/07/08 10:23:21 main.go:84: User input: ([2 3 6 7]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:21 main.go:84: User input: ([2 3 6 7]) and secret key: ([2 8 4 7]) first digits (7) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:23:21 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:23:21 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:21 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:23 main.go:52: User guessed 2369
+INFO: 2022/07/08 10:23:23 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:23 main.go:60: Increasing guess count by one, current value: 6
+INFO: 2022/07/08 10:23:23 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369]
+INFO: 2022/07/08 10:23:23 main.go:78: Parsing the user guess: [2 3 6 9] 
+INFO: 2022/07/08 10:23:23 main.go:84: User input: ([2 3 6 9]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:23 main.go:93: Returning postive and negative values [1 0] 
+INFO: 2022/07/08 10:23:23 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:23 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:29 main.go:52: User guessed 2310
+INFO: 2022/07/08 10:23:29 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:29 main.go:60: Increasing guess count by one, current value: 7
+INFO: 2022/07/08 10:23:29 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310]
+INFO: 2022/07/08 10:23:29 main.go:78: Parsing the user guess: [2 3 1 0] 
+INFO: 2022/07/08 10:23:29 main.go:84: User input: ([2 3 1 0]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:29 main.go:93: Returning postive and negative values [1 0] 
+INFO: 2022/07/08 10:23:29 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:29 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:32 main.go:52: User guessed 2320
+INFO: 2022/07/08 10:23:32 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:32 main.go:60: Increasing guess count by one, current value: 8
+INFO: 2022/07/08 10:23:32 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320]
+INFO: 2022/07/08 10:23:32 main.go:78: Parsing the user guess: [2 3 2 0] 
+INFO: 2022/07/08 10:23:32 main.go:84: User input: ([2 3 2 0]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:32 main.go:87: Secret key contains 2th item: 2  in a different position ([2 8 4 7]), increasing the negative count by one... current negative 0
+INFO: 2022/07/08 10:23:32 main.go:93: Returning postive and negative values [1 -1] 
+INFO: 2022/07/08 10:23:32 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:32 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:34 main.go:52: User guessed 23
+WARNING: 2022/07/08 10:23:34 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:23:34 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:36 main.go:52: User guessed 2340
+INFO: 2022/07/08 10:23:36 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:36 main.go:60: Increasing guess count by one, current value: 9
+INFO: 2022/07/08 10:23:36 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340]
+INFO: 2022/07/08 10:23:36 main.go:78: Parsing the user guess: [2 3 4 0] 
+INFO: 2022/07/08 10:23:36 main.go:84: User input: ([2 3 4 0]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:36 main.go:84: User input: ([2 3 4 0]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:23:36 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:23:36 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:36 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:43 main.go:52: User guessed 2351
+INFO: 2022/07/08 10:23:43 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:43 main.go:60: Increasing guess count by one, current value: 10
+INFO: 2022/07/08 10:23:43 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351]
+INFO: 2022/07/08 10:23:43 main.go:78: Parsing the user guess: [2 3 5 1] 
+INFO: 2022/07/08 10:23:43 main.go:84: User input: ([2 3 5 1]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:43 main.go:93: Returning postive and negative values [1 0] 
+INFO: 2022/07/08 10:23:43 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:43 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:48 main.go:52: User guessed 2340
+INFO: 2022/07/08 10:23:48 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:48 main.go:60: Increasing guess count by one, current value: 11
+INFO: 2022/07/08 10:23:48 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351 2340]
+INFO: 2022/07/08 10:23:48 main.go:78: Parsing the user guess: [2 3 4 0] 
+INFO: 2022/07/08 10:23:48 main.go:84: User input: ([2 3 4 0]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:48 main.go:84: User input: ([2 3 4 0]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:23:48 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:23:48 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:48 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:51 main.go:52: User guessed 2350
+INFO: 2022/07/08 10:23:51 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:51 main.go:60: Increasing guess count by one, current value: 12
+INFO: 2022/07/08 10:23:51 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351 2340 2350]
+INFO: 2022/07/08 10:23:51 main.go:78: Parsing the user guess: [2 3 5 0] 
+INFO: 2022/07/08 10:23:51 main.go:84: User input: ([2 3 5 0]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:51 main.go:93: Returning postive and negative values [1 0] 
+INFO: 2022/07/08 10:23:51 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:51 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:23:56 main.go:52: User guessed 2349
+INFO: 2022/07/08 10:23:56 main.go:58: User input is valid.
+INFO: 2022/07/08 10:23:56 main.go:60: Increasing guess count by one, current value: 13
+INFO: 2022/07/08 10:23:56 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351 2340 2350 2349]
+INFO: 2022/07/08 10:23:56 main.go:78: Parsing the user guess: [2 3 4 9] 
+INFO: 2022/07/08 10:23:56 main.go:84: User input: ([2 3 4 9]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:23:56 main.go:84: User input: ([2 3 4 9]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:23:56 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:23:56 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:23:56 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:24:00 main.go:52: User guessed 2149
+INFO: 2022/07/08 10:24:00 main.go:58: User input is valid.
+INFO: 2022/07/08 10:24:00 main.go:60: Increasing guess count by one, current value: 14
+INFO: 2022/07/08 10:24:00 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351 2340 2350 2349 2149]
+INFO: 2022/07/08 10:24:00 main.go:78: Parsing the user guess: [2 1 4 9] 
+INFO: 2022/07/08 10:24:00 main.go:84: User input: ([2 1 4 9]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:24:00 main.go:84: User input: ([2 1 4 9]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:24:00 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:24:00 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:24:00 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:24:07 main.go:52: User guessed 234
+WARNING: 2022/07/08 10:24:07 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:24:07 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:24:08 main.go:52: User guessed 239
+WARNING: 2022/07/08 10:24:08 main.go:54: User entered a number with digitc count not equal to 4
+INFO: 2022/07/08 10:24:08 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:24:10 main.go:52: User guessed 2349
+INFO: 2022/07/08 10:24:10 main.go:58: User input is valid.
+INFO: 2022/07/08 10:24:10 main.go:60: Increasing guess count by one, current value: 15
+INFO: 2022/07/08 10:24:10 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351 2340 2350 2349 2149 2349]
+INFO: 2022/07/08 10:24:10 main.go:78: Parsing the user guess: [2 3 4 9] 
+INFO: 2022/07/08 10:24:10 main.go:84: User input: ([2 3 4 9]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:24:10 main.go:84: User input: ([2 3 4 9]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:24:10 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:24:10 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:24:10 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:24:14 main.go:52: User guessed 2549
+INFO: 2022/07/08 10:24:14 main.go:58: User input is valid.
+INFO: 2022/07/08 10:24:14 main.go:60: Increasing guess count by one, current value: 16
+INFO: 2022/07/08 10:24:14 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351 2340 2350 2349 2149 2349 2549]
+INFO: 2022/07/08 10:24:14 main.go:78: Parsing the user guess: [2 5 4 9] 
+INFO: 2022/07/08 10:24:14 main.go:84: User input: ([2 5 4 9]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:24:14 main.go:84: User input: ([2 5 4 9]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:24:14 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:24:14 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:24:14 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:24:20 main.go:52: User guessed 2649
+INFO: 2022/07/08 10:24:20 main.go:58: User input is valid.
+INFO: 2022/07/08 10:24:20 main.go:60: Increasing guess count by one, current value: 17
+INFO: 2022/07/08 10:24:20 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351 2340 2350 2349 2149 2349 2549 2649]
+INFO: 2022/07/08 10:24:20 main.go:78: Parsing the user guess: [2 6 4 9] 
+INFO: 2022/07/08 10:24:20 main.go:84: User input: ([2 6 4 9]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:24:20 main.go:84: User input: ([2 6 4 9]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:24:20 main.go:93: Returning postive and negative values [2 0] 
+INFO: 2022/07/08 10:24:20 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:24:20 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:24:23 main.go:52: User guessed 2749
+INFO: 2022/07/08 10:24:23 main.go:58: User input is valid.
+INFO: 2022/07/08 10:24:23 main.go:60: Increasing guess count by one, current value: 18
+INFO: 2022/07/08 10:24:23 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351 2340 2350 2349 2149 2349 2549 2649 2749]
+INFO: 2022/07/08 10:24:23 main.go:78: Parsing the user guess: [2 7 4 9] 
+INFO: 2022/07/08 10:24:23 main.go:84: User input: ([2 7 4 9]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:24:23 main.go:87: Secret key contains 1th item: 7  in a different position ([2 8 4 7]), increasing the negative count by one... current negative 0
+INFO: 2022/07/08 10:24:23 main.go:84: User input: ([2 7 4 9]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:24:23 main.go:93: Returning postive and negative values [2 -1] 
+INFO: 2022/07/08 10:24:23 main.go:72: User guessed wrong, initiating another run
+INFO: 2022/07/08 10:24:23 main.go:43: ----------------STARTING THE MENU----------------
+INFO: 2022/07/08 10:24:28 main.go:52: User guessed 2847
+INFO: 2022/07/08 10:24:28 main.go:58: User input is valid.
+INFO: 2022/07/08 10:24:28 main.go:60: Increasing guess count by one, current value: 19
+INFO: 2022/07/08 10:24:28 main.go:63: Appending guess to previous guesses slice... current slice:  [2525 2345 2367 2389 2367 2369 2310 2320 2340 2351 2340 2350 2349 2149 2349 2549 2649 2749 2847]
+INFO: 2022/07/08 10:24:28 main.go:78: Parsing the user guess: [2 8 4 7] 
+INFO: 2022/07/08 10:24:28 main.go:84: User input: ([2 8 4 7]) and secret key: ([2 8 4 7]) first digits (2) are equal, increasing the positive count by one... current positive 0
+INFO: 2022/07/08 10:24:28 main.go:84: User input: ([2 8 4 7]) and secret key: ([2 8 4 7]) first digits (8) are equal, increasing the positive count by one... current positive 1
+INFO: 2022/07/08 10:24:28 main.go:84: User input: ([2 8 4 7]) and secret key: ([2 8 4 7]) first digits (4) are equal, increasing the positive count by one... current positive 2
+INFO: 2022/07/08 10:24:28 main.go:84: User input: ([2 8 4 7]) and secret key: ([2 8 4 7]) first digits (7) are equal, increasing the positive count by one... current positive 3
+INFO: 2022/07/08 10:24:28 main.go:93: Returning postive and negative values [4 0] 
+INFO: 2022/07/08 10:24:28 main.go:67: User won the game, exiting...
