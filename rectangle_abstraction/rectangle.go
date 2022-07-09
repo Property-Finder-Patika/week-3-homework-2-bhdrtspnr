@@ -13,7 +13,7 @@ type rectangle struct { //define rectangle struct
 
 func newRectangleWithArgumentsReturns(height float64, width float64) (*rectangle, error) { //main new rectangle function, takes height and width, returns rectangle and an error
 	rekt := rectangle{} //init empty rectangle
-	if width <= 0 {     //if width is less than zero throw error and return nil, error
+	if width <= 0 {     //if width is less than zero throw error and return nil, error I don't know why but it also catches if you give string
 		err := errors.New(invalidWidth(width))
 		return nil, err
 	}
